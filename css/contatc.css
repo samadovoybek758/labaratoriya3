@@ -5,11 +5,11 @@
     background-color: #014E56;
     font-family: "Livvic";
 }
-.header_continer{
-   background-image: url(../images/Group\ 8.png),url(../images/Group\ 7.png);
-   background-repeat: no-repeat;
-    background-position: 0 180px,917px 587px;
-    padding-bottom: 250px;
+header{
+    background-image: url(../images/contact1.png),url(../images/contact2.png);
+    background-repeat: no-repeat;
+    background-position: 0 35%, 100% 100%;
+    padding-bottom: 120px;
 }
 .continer{
     max-width: 1440px;
@@ -17,7 +17,6 @@
     margin-right: auto;
     padding-left: 165px;
     padding-right: 165px;
-    /* background-color: beige; */
 }
 nav{
     display: flex;
@@ -54,192 +53,97 @@ nav{
     border: 1px solid white;
     border-radius: 30px;
     padding: 10px 33px;
-
-}
-.contact a{
-    text-decoration: none;
     color: white;
     font-size: 18px;
+
 }
+
+
 .header_footer{
     display: flex;
     justify-content: space-between;
-    gap: 30px;
-    /* margin-bottom: 250px; */
-}
-.header_footer h1{
-    font-size: 100px;
-    color: white;
-    max-width: 600px;
-}
-.header_footer p{
-    max-width: 390px;
-    font-size: 18px;
-    color: white;
-    line-height: 28px;
-    align-items: center;
     
 }
-.talent{
-    color: rgb(197, 101, 101);
-}
-.chiziqcha{
-    width: 50px;
-    height: 4px;
-    background-color: #79C8C7;
-    border-radius: 20px;
-}
-.header_footer_1{
-    display: flex;
-    flex-direction: column;
-    gap: 100px;
-}
-
-
-
-
-.section_1{
-    display: flex;
-    gap: 125px;
-    padding: 140px 165px;
-    background-color: #012F34;
-    background-image: url(../images/Group\ 8\ \(1\).png);
-    background-repeat: no-repeat;
-    background-position: 100% 100%;
-}
-.section_1 *{
-    background-color: #012F34;
-}
-
-.section_1 .chiziqcha{
-    background-color: #F67E7E;
-}
-
-.section_1 h1{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 48px;
-    margin-top: 54px;
-    max-width: 445px;
+.header_footer_1 h1{
+    font-size: 64px;
     color: white;
 }
-
-.Individuals{
+.header_footer_1 span{
+    font-size: 32px;
+    font-weight: 700;
+    color: #F67E7E;
+    margin-top: 16px;
+    
+}
+.users{
     display: flex;
+    gap: 8px;
     flex-direction: column;
-    gap: 32px;
+    margin-top: 32px;
 }
 
-.Experienced{
+.user{
     display: flex;
     gap: 23px;
     align-items: center;
 }
-.Experienced span{
-    color: #F67E7E;
+.user p{
     font-size: 18px;
     font-weight: 700;
-}
-
-.Experienced p{
-    color: #fff;
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 16px;
-}
-
-
-
-
-
-
-.section_2{
-    padding: 140px 165px;
-    background-image: url(../images/section2.svg);
-    background-repeat: no-repeat;
-}
-
-.section_2 h1{
-    font-size: 48px;
     color: white;
-    text-align: center;
-    max-width: 920px;
-    margin-inline: auto;
+    font-family: "Livvic";
 }
 
-.users{
-    display: flex;
-    gap: 30px;
-    margin-top: 56px;
-}
-.users1{
+.inputs{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    gap: 24px;
 }
-.users p{
+
+.input{
+    display: flex;
+    gap: 17px;
+    flex-direction: column;
+}
+
+.input p{
     font-size: 15px;
     font-weight: 600;
     color: white;
-    line-height: 25px;
-    text-align: center;
-    max-width: 350px;
+    opacity: 60%;
+    margin-left: 14px;
 }
-.users1 span{
-    color: #79C8C7;
-    font-size: 18px;
-    font-weight: 700;
-    margin-top: 24px;
-    margin-bottom: 2px;
+.chiziqcha{
+    width: 540px;
+    height: 1px;
+    background-color: white;
 }
 
-.users1 h5{
-    font-size: 13px;
-    font-weight: 500;
-    font-style: italic;
-    color: white;
-    margin-bottom: 32px;
+.Message{
+    margin-bottom: 41px;
 }
+
+.submit{
+    padding: 10px 32px;
+    background-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    color: #004047;
+    border-radius: 20px;
+    max-width: 123px;
+    border: none;
+    font-family: "Livvic";
+}
+
+
 
 footer{
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
 }
-.footer1{
-    background-color:#F67E7E;
-    padding: 76px 261px;
-    display: flex;
-    flex-direction: row;
-    color:#012F34;
-    justify-content: space-between;
-    background-image:  url(../images/Group\ 8.svg);
-    background-repeat: no-repeat;
-    background-position: 0 100%;
-}
-.footer1 *{
-    background-color:#F67E7E;
-}
 
-.footer1 h1{
-    font-size: 48px;
-    font-weight: 700;
-}
-.footer1 button{
-    border: 1px solid #012F34 ;
-    border-radius: 30px;
-    padding: 10px 33px;
-    color: #012F34;
-    font-size: 18px;
-}
-.myteam{
- 
-    display: flex;
-    gap: 100px;
-    flex-direction: row;
-    justify-content: space-between;
-    
-}
+
 
 .footer2{
     padding: 48px 165px;
@@ -281,6 +185,11 @@ footer{
     opacity: 60%;
 }
 
+
+
+
+
+
 @media(max-width: 1200px){
     .footer1{
         padding-left: 50px;
@@ -293,6 +202,9 @@ footer{
     .footer2_4{
         margin-left: 10px;
     }
+    .chiziqcha{
+        max-width: 300px;
+    }
 }
 
 @media(max-width: 870px){
@@ -301,14 +213,13 @@ footer{
        align-items: center;
     }
     
-    .section_1{
-        display: flex;
-        flex-direction: column;
-    }
     footer{
         max-width: 800px;
         margin-left: auto;
         margin-right: auto;
+    }
+    .header_footer{
+        flex-direction: column;
     }
 }
 
@@ -320,11 +231,7 @@ footer{
         max-width: 689px;
         padding: 0;
     }
-    .header_continer{
-        padding-bottom: 256px;
-        background-image: url(../images/Group\ 7\ \(32\).png);
-        background-position: 50% 100%;
-    }
+    
     nav{
         padding: 0 40px;
     }
@@ -346,55 +253,14 @@ footer{
         font-size: 64px;
         width: 350px;
     }
-    .header_footer_1 .chiziqcha{
-        display: none;
-    }
+    
     .header_footer_1{
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    .header_footer_1 p{
-        max-width: 430px;
-        font-size: 15px;
-    }
     
-
-
-    .section_1{
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        gap: 64px;
-        flex-direction: column;
-        padding: 100px 97px;
-        background-image: url(../images/Group\ 8\ \(1\).png);
-        background-repeat: no-repeat;
-        background-position: 100% 0%;
-    }
-    .section_1 h1{
-        margin-top: 32px;
-        font-size: 32px;
-        max-width: 445px;
-    }
-
-    .section_2{
-        padding: 100px 97px;
-    }
-    .section_2 h1{
-        font-size: 32px;
-    }
-    .users{
-        display: flex;
-        flex-direction: column;
-        gap: 48px;
-    }
-    .users1{
-        max-width: 573px;
-    }
-    .users1 p{
-        max-width: 573px;
-    }
 
     .footer1{
         padding: 76px 97px;
@@ -494,11 +360,6 @@ footer{
         max-width: 327px;
         padding: 0;
     }
-    .header_continer{
-        background-image: url(../images/Group\ 7\ \(32\).png);
-        background-repeat: no-repeat;
-        background-position: 50% 100%;
-    }
     .nav-2{
         flex-direction: column;
     }
@@ -514,9 +375,5 @@ footer{
     .header_footer p{
         max-width: 327px;;
     }
-    .Experienced{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
+    
 }
